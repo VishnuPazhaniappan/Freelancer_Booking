@@ -1,0 +1,98 @@
+/* src/components/Main.css */
+/* Existing styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.header1 {
+    background-color: black; /* Black background for the header */
+    padding: 10px 20px; /* Padding around the header text */
+    box-sizing: border-box;
+    width: 100%; /* Full width for the header */
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+    text-align: left; /* Align text to the left */
+    color: white;
+}
+
+.button-container {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button-container button {
+    flex-grow: 1;
+    padding: 8px 0;
+    background-color: lightblue;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-container button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Styles for login popup */
+.login-popup {
+    position: absolute; /* Positioning the popup */
+    top: 50px; /* Adjust this to position below the Login button */
+    right: 20px; /* Align it to the right side */
+    background-color: white; /* Background color for the popup */
+    border: 1px solid #ccc; /* Border for the popup */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the popup */
+    padding: 10px; /* Padding inside the popup */
+    z-index: 10; /* Ensures the popup appears above other content */
+    display: flex;
+    flex-direction: column; /* Arrange buttons vertically */
+}
+
+.login-popup button {
+    padding: 10px; /* Add padding to buttons */
+    background-color: lightblue; /* Match the button color */
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    width: 100%; /* Full width for login buttons */
+    margin: 5px 0; /* Margin between buttons */
+}
+
+.login-popup button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content {
+    padding: 30px;
+    color : #d3d3d3 ;
+    margin-top: 0; /* Remove any margin at the top */
+    width: 100%; /* Full viewport width */
+    height: 15cm; /* Full height minus navbar and fixed height of content */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    background-size: cover; /* Ensures the image covers the area */
+    background-image: url('./assets/bird1.jpg');
+}
+.content h1,p{
+    opacity: 0.5;
+}
+
+
+
+
+

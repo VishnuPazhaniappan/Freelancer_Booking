@@ -1,0 +1,61 @@
+.ac-details-container {
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .main-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .main-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sub-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .info-group, .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .info-group label, .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .info-group p {
+    font-size: 16px;
+    padding: 8px;
+    background-color: #333;
+    border: 1px solid #444;
+    color: #fff;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    background-color: #333;
+    border: 1px solid #444;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .print-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .print-button:hover {
+    background-color: #444;
+  }

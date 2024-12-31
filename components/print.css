@@ -1,0 +1,35 @@
+@media print {
+    .header {
+      position: static;
+    }
+  
+    .sidebar {
+      display: none;
+    }
+  
+    .main-content {
+      margin: 0;
+      padding: 0;
+      box-shadow: none;
+    }
+  
+    .nav-container {
+      display: none;
+    }
+  
+    .print-button {
+      display: none;
+    }
+  
+    /* Ensure white background and black text */
+    * {
+      background-color: white !important;
+      color: black !important;
+      box-shadow: none !important;
+    }
+  
+    /* Break pages appropriately */
+    .page-break {
+      page-break-before: always;
+    }
+  }
